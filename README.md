@@ -63,20 +63,21 @@ cd fintrack
 
 🔐 Set Up Environment Variables
 Create a .env file in the /server directory:
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
-PORT=5000
+
+```MONGO_URI=your_mongodb_uri, 
+JWT_SECRET=your_jwt_secret, 
+PORT=5000```
 
     
-🚀 Start the Application
+```🚀 Start the Application
 # Terminal 1: Start backend
-cd server
-npm install
+cd server, 
+npm install, 
 npm start
       
 # Terminal 2: Start frontend
-cd client
-npm install
+cd client, 
+npm install, 
 npm run dev```
 
 
