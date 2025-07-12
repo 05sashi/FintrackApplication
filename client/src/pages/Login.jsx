@@ -41,6 +41,7 @@ const Login = () => {
         </div>
         <div className="bg-white/10 backdrop-blur-md p-6 rounded-lg border border-white/20">
           <p className="text-white italic">“Fintrack has revolutionized how I manage my money. It's intuitive, powerful, and beautiful.”</p>
+          <p className="mt-4 font-semibold text-white">— Sashidhar, Website Author</p>
         </div>
       </div>
 
