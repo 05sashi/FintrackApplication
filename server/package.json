@@ -10,5 +10,8 @@
     "vercel": "^44.4.1"
   },
   "type": "module",
+  "scripts": {
+  "vercel-build": "echo 'Vercel build step — nothing to build for backend'",
   "start": "nodemon server.js"
+}
 }
