@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://fintrackapplication.onrender.com/api',
+  baseURL: 'https://fintrack-application-7m85-sashidhars-projects.vercel.app/api',
 });
 
 API.interceptors.request.use((req) => {
